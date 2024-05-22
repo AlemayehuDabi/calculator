@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="display">
+        <div id="old-typed" class="old-typed"></div>
+        <div id="recent-typed" class="recent-typed"></div>
+      </div>
+      <div class="btns">
+        <div>
+          <button id="clear" class="btn">AC</button>
+          <button class="btn operator">%</button>
+          <button class="btn operator">÷</button>
+          <button id="delete" class="btn sign">DEL</button>
+        </div>
+        <div>
+          <button class="btn number">7</button>
+          <button class="btn number">8</button>
+          <button class="btn number">9</button>
+          <button class="btn sign operator">x</button>
+        </div>
+        <div>
+          <button class="btn number">4</button>
+          <button class="btn number">5</button>
+          <button class="btn number">6</button>
+          <button class="btn sign operator">-</button>
+        </div>
+        <div>
+          <button class="btn number">1</button>
+          <button class="btn number">2</button>
+          <button class="btn number">3</button>
+          <button class="btn sign operator">+</button>
+        </div>
+        <div>
+          <button id="zero" class="btn number">0</button>
+          <button class="btn number">.</button>
+          <button id="equal" class="btn sign">=</button>
+          <hr style="width: 8rem; border: 2px solid #fff; margin-top: 20px" />
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
